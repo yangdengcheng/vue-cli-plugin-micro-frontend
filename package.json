@@ -1,0 +1,21 @@
+{
+  "name": "vue-cli-plugin-micro-frontend",
+  "version": "0.0.1",
+  "description": "vue-cli of qiankun plugin",
+  "main": "index.js",
+  "files": [
+    "generator",
+    "index.js",
+    "public-path.js",
+    "prompts.js"
+  ],
+  "repository": "https://github.com/yangdengcheng/vue-cli-plugin-micro-frontend.git",
+  "keywords": [
+    "vue-cli",
+    "qiankun",
+    "micro-frontend"
+  ],
+  "author": "YangDengcheng",
+  "license": "MIT",
+  "homepage": "https://github.com/yangdengcheng/vue-cli-plugin-micro-frontend#readme"
+}
