@@ -1,3 +1,3 @@
 module.exports = (api, { type }) => {
-    api.render(`./${type}`)
+    require(`./${type}`)(api)
 }

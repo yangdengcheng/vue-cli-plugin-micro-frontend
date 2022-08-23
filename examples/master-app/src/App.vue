@@ -20,7 +20,7 @@ export default {
     data () {
         return {
             apps: [
-                { name: 'child', entry: '//localhost:8301', container: '#appContainer', activeRule: '/child' }
+                { name: 'child-app-1', entry: '//localhost:8301', container: '#appContainer', activeRule: '/child-app-1' }
             ]
         }
     },
@@ -60,7 +60,7 @@ export default {
                     ]
                 }
             )
-            setDefaultMountApp('/slave')
+            setDefaultMountApp('/child-app-1')
             runAfterFirstMounted(() => {
                 // eslint-disable-next-line no-console
                 console.info('first app mounted')

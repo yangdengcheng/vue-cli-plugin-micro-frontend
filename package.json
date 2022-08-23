@@ -1,6 +1,6 @@
 {
   "name": "vue-cli-plugin-micro-frontend",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "vue-cli of qiankun plugin",
   "main": "index.js",
   "files": [
