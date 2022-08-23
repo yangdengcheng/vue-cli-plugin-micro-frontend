@@ -1,10 +1,9 @@
 # vue-cli-plugin-micro-frontend
 
----
 
 ## 前言
 
-本插件支持vue-cli 3.x，方便qiankun微前端框架引入。
+本插件支持vue-cli 3.x，增加主应用时，内置qiankun2.x，方便qiankun微前端框架在主应用、子应用引入。
 
 ## 使用步骤
 
@@ -60,7 +59,7 @@ export default {
 </script>
 ```
 
-4. 运行主应用于子应用
+4. 运行主应用与子应用
 
 ```shell
 cd master-app
@@ -74,4 +73,13 @@ npm run serve
 
 ## 示例
 
-见examples文件夹
+```shell
+cd examples
+
+npm install
+
+npm run install:all
+
+npm run serve:all
+
+```

@@ -1,0 +1,18 @@
+{
+  "name": "examples",
+  "scripts": {
+    "install:all": "npm run install:master && npm run install:child-app-1 && npm run install:child-app-2",
+    "install:master": "cd master-app && npm install",
+    "install:child-app-1": "cd child-app-1 && npm install",
+    "install:child-app-2": "cd child-app-2 && npm install",
+    "serve:all": "concurrently \"npm run serve:master\" \"npm run serve:child-app-1\" \"npm run serve:child-app-2\"",
+    "serve:master": "cd master-app && npm run serve",
+    "serve:child-app-1": "cd child-app-1 && npm run serve",
+    "serve:child-app-2": "cd child-app-2 && npm run serve",
+    "build:all": "concurrently \"npm run build:master\" \"npm run build:child-app-1\" \"npm run build:child-app-2\"",
+    "build:master": "cd master-app && npm run build",
+    "build:child-app-1": "cd child-app-1 && npm run build",
+    "build:child-app-2": "cd child-app-2 && npm run build"
+  },
+  "author": "YangDengcheng"
+}

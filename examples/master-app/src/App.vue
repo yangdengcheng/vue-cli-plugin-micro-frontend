@@ -20,7 +20,8 @@ export default {
     data () {
         return {
             apps: [
-                { name: 'child-app-1', entry: '//localhost:8301', container: '#appContainer', activeRule: '/child-app-1' }
+                { name: 'child-app-1', entry: '//localhost:8301', container: '#appContainer', activeRule: '/child-app-1' },
+                { name: 'child-app-2', entry: '//localhost:8302', container: '#appContainer', activeRule: '/child-app-2' }
             ]
         }
     },

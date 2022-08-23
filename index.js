@@ -6,6 +6,7 @@ module.exports = (api) => {
 
     if (isMaster) return
 
+    // 增加子应用相关配置
     api.chainWebpack((config) => {
         config.devServer
             .headers({
