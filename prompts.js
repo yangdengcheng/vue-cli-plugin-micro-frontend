@@ -5,11 +5,11 @@ module.exports = [
         message: 'Pick a project type:',
         choices: [
             {
-                name: 'master',
+                name: 'master app',
                 value: 'master'
             },
             {
-                name: 'child',
+                name: 'child app',
                 value: 'child'
             }
         ]
