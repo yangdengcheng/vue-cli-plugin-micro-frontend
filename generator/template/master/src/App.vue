@@ -60,7 +60,7 @@ export default {
                     ]
                 }
             )
-            setDefaultMountApp('/slave')
+            setDefaultMountApp('/child')
             runAfterFirstMounted(() => {
                 // eslint-disable-next-line no-console
                 console.info('first app mounted')
